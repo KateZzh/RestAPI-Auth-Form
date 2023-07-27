@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+  font-style: normal;
+}
+
+body {
+  width: 1920px;
+}
+
+.register-form, .auth-form {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h1 {
+  font: 700 44px inter;
+  padding-top: 36px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  width: 352px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #bb86fc;
+  margin-left: 24px;
+  background-color: #000000de;
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #ffffffde;
+}
+
+.email, .email2 {
+  margin-top: 53px;
+}
+
+.password, .password2 {
+  margin-top: 18px;
+}
+
+.login-button, .login-button2 {
+  font: 500 15px inter;
+  width: 153px;
+  height: 38px;
+  color: #000000de;
+  margin: 56px auto;
+  border-radius: 20px;
+  background: #bb86fc;
+  text-align: center;
+  padding-top: 10px;
+}
